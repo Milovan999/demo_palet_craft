@@ -1,0 +1,159 @@
+/*This is file for styling HTML pages*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+.header {
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav {
+  height: 60px;
+  font-size: 22px;
+}
+.nav_list {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.nav_item {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.nav_link {
+  display: flex;
+  text-decoration: none;
+  margin-right: 15px;
+  align-content: center;
+  color: white;
+}
+.nav_link:hover {
+  background-color: white;
+  color: #4caf50;
+  border-radius: 5px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.content {
+  margin: 2rem 0;
+  background: white;
+  padding: 2rem;
+  border-radius: 5px;
+}
+#heading_about,
+#heading_products,
+#heading_gallery,
+#heading_contact {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.content > p,
+.content ul li p {
+  font-size: 20px;
+  text-align: justify;
+}
+table {
+  margin: 0 auto;
+}
+td img {
+  width: 250px;
+  height: 250px;
+}
+td img:hover {
+  transform: scale(1.7);
+}
+.contact_text,
+label {
+  font-size: 20px;
+  text-align: center;
+}
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+}
+input {
+  padding-left: 10px;
+  font-size: 20px;
+  height: 30px;
+  border-radius: 15px;
+}
+textarea {
+  padding-left: 10px;
+  font-size: 20px;
+  resize: none;
+  height: 150px;
+  border-radius: 15px;
+}
+.buttons {
+  margin: 20px auto;
+}
+#submitBtn,
+#resetBtn {
+  font-size: 20px;
+  width: 200px;
+  height: 30px;
+  border: 0;
+  border-radius: 15px;
+  background-color: white;
+}
+#submitBtn:hover,
+#resetBtn:hover {
+  background-color: hsl(122, 39%, 70%);
+  border: 1px solid white;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #4caf50;
+  color: white;
+  width: 100%;
+  font-size: 20px;
+}
+.social_media {
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+.footer_link {
+  width: 150px;
+  text-decoration: none;
+  color: white;
+  padding-right: 5px;
+}
+.footer_link:active,
+.footer_link:visited {
+  color: white !important;
+}
+.social_logo {
+  width: 25px;
+  margin-right: 5px;
+  border-radius: 25px;
+}
+.copyright_text {
+  margin-top: 60px;
+}
